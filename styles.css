@@ -24,26 +24,14 @@
     color: rgb(0, 132, 255);
 }
 
-.lineEdit-dark {
-    border-radius: 5px;
-    border-width: 1px;
-    box-shadow: 5px 5px 5px rgba(20, 20, 20, 0.1);
-    background-color: #e7e7e7;
-    color: black;
-}
-
-::placeholder {
-    color: lightgray;
-}
-
 .text-light {
     color: black;
 }
 
 .themes {
     position: absolute;
-    right: 100px;
-    bottom: 100px;
+    right: 10px;
+    bottom: 10px;
 }
 
 /*Dark Theme*/
@@ -68,24 +56,30 @@
     color: rgb(0, 247, 255);
 }
 
-.lineEdit-dark {
-    border-radius: 5px;
-    border-width: 1px;
-    box-shadow: 5px 5px 5px rgba(20, 20, 20, 1);
-    background-color: rgb(76, 78, 84);
-    color: white;
-}
-
-::placeholder {
-    color: white;
-}
-
 .text-dark {
     color: white;
 }
 
-.themes {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+/*High Contrast Theme*/
+
+.body-contrast {
+    background-color: black;
+}
+
+.title-contrast {
+    color: cyan;
+}
+
+.button-contrast {
+    border-width: 1px;
+    background-color: magenta;
+    color: black;
+}
+
+.button-contrast:hover {
+    color: black;
+}
+
+.text-contrast {
+    color: yellow;
 }
