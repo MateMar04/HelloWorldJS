@@ -1,0 +1,91 @@
+* {
+    font-family: Poppins;
+}
+
+/*Light Theme*/
+
+.body-light {
+    background-color: white;
+}
+
+.title-light {
+    color: black;
+}
+
+.button-light {
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #e7e7e7;
+    box-shadow: 5px 5px 5px rgba(20, 20, 20, 0.3);
+    color: black;
+}
+
+.button-light:hover {
+    color: rgb(0, 132, 255);
+}
+
+.lineEdit-dark {
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 5px 5px rgba(20, 20, 20, 0.1);
+    background-color: #e7e7e7;
+    color: black;
+}
+
+::placeholder {
+    color: lightgray;
+}
+
+.text-light {
+    color: black;
+}
+
+.themes {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+}
+
+/*Dark Theme*/
+
+.body-dark {
+    background-color: rgb(36, 37, 40);
+}
+
+.title-dark {
+    color: white;
+}
+
+.button-dark {
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 5px 5px rgba(20, 20, 20, 1);
+    background-color: rgb(76, 78, 84);
+    color: white;
+}
+
+.button-dark:hover {
+    color: rgb(0, 247, 255);
+}
+
+.lineEdit-dark {
+    border-radius: 5px;
+    border-width: 1px;
+    box-shadow: 5px 5px 5px rgba(20, 20, 20, 1);
+    background-color: rgb(76, 78, 84);
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.text-dark {
+    color: white;
+}
+
+.themes {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
