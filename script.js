@@ -42,7 +42,7 @@ function setTheme(themeToSet) {
     const components = [
         ["body", "body"],
         ["title", "title"],
-        ["btn_Mostrar", "button"],
+        ["btnMostrar", "button"],
         ["btnBorrar", "button"],
         ["lblSaludar", "text"],
         ["btnLightTheme", "button"],
